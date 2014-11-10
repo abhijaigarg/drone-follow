@@ -1,5 +1,10 @@
 RGB camera based single human tracking
 ============
 
-A script that runs on OpenCV, and allows a camera to track the movement of a human subject.
-Can be applied to security cameras for human tracking and drones for autonomous flight to follow human subjects.
+This is a python script that I wrote using the OpenCV library to track the movement of a human subject in a frame.
+
+I wrote this script for my class at New York University "Experiments in Motion Capture" (http://movement.nyu.edu/mocap14s/)
+
+The script uses a CV technique - meanshift to track the subject by recognising patterned shirts. Initialisation is done by face detection using the Haar Cascade detector.
+
+The ultimate goal of this work is to enable drones to track human subjects and likewise follow them.
